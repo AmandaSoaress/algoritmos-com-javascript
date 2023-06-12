@@ -1,5 +1,5 @@
-const livros = require('./listaLivros');
-const troca = require('./troca');
+import {livros} from './listaLivros.js';
+import {troca} from './troca.js';
 
 function insertionSort(lista) {
     for (let atual = 0; atual < lista.length; atual++) {

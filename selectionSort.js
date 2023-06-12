@@ -1,6 +1,7 @@
-const livros = require('./listaLivros');
-const menorValor = require('./menorValor');
-const troca = require('./selectionTroca');
+import { livros } from './listaLivros.js';
+import  menorValor  from './menorValor.js'; // precisa arrumar o export
+import troca from './selectionTroca.js';
+
 //1
 //for (let atual = 0; atual < livros.length -1; atual++) {
     //let menor = menorValor(livros, atual)
@@ -37,9 +38,9 @@ const troca = require('./selectionTroca');
   
  // console.log(livros)
 // resolução da professora cheguei no mesmo resultado mais ainda nao estou entendendo muito bem.
- for (let atual = 0; atual < livros.length; atual++) {
-  let menor = menorValor(livros, atual);
+  for (let atual = 0; atual < length; atual++) {
+   let menor = menorValor(livros, atual);
 
-  troca(livros, atual, menor);
-}
-console.log(livros);
+   troca(livros, atual, menor);
+ }
+ console.log(livros);

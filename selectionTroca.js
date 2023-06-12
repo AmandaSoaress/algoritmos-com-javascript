@@ -9,4 +9,4 @@ function selectionTroca(livros, indexMenorPreco, indexAtual) {
     livros[indexAtual] = objetoMenorPreco; //a lista de livros na posição atual, recebe o objetoMenorPreço
 }
 
-module.exports = selectionTroca;
+export default selectionTroca;
